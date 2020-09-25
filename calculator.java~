@@ -1,0 +1,30 @@
+import java.util.Scanner; 
+ 
+public class calculator { 
+ public static void main(String[] args) { 
+  Int answer = 0; 
+  Scanner Scan = new Scanner(System.in); 
+   
+  System.out.println("Enter a number"); 
+  Double num1 = Scan.nextLine(); 
+   
+  System.out.println("Enter another number"); 
+  Double num2 = Scan.nextLine(); 
+   
+  System.out.println("Select an operator: +, -, *, /"); 
+  String op = myScan.nextLine(); 
+   
+  if (op == "+") { answer = num1 + num2} 
+  else if (op == "-") { answer = num1 - num2} 
+  else if (op == "*") { answer = num1 * num2}
+  
+  else if (op == "/") {
+    
+    answer = num1/num2;
+  
+  } 
+   
+  System.out.println("answer") ;
+   
+ } 
+}
